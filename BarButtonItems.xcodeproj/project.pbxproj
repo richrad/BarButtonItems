@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9B627C421AA7733D0085D5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627C411AA7733D0085D5BF /* AppDelegate.swift */; };
-		9B627C441AA7733D0085D5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627C431AA7733D0085D5BF /* ViewController.swift */; };
 		9B627C471AA7733D0085D5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B627C451AA7733D0085D5BF /* Main.storyboard */; };
 		9B627C491AA7733D0085D5BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B627C481AA7733D0085D5BF /* Images.xcassets */; };
 		9B627C4C1AA7733D0085D5BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B627C4A1AA7733D0085D5BF /* LaunchScreen.xib */; };
 		9B627C581AA7733D0085D5BF /* BarButtonItemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627C571AA7733D0085D5BF /* BarButtonItemsTests.swift */; };
+		9B627C621AA77A9F0085D5BF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627C611AA77A9F0085D5BF /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		9B627C3C1AA7733D0085D5BF /* BarButtonItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarButtonItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B627C401AA7733D0085D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B627C411AA7733D0085D5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B627C431AA7733D0085D5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B627C461AA7733D0085D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B627C481AA7733D0085D5BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B627C4B1AA7733D0085D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B627C511AA7733D0085D5BF /* BarButtonItemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarButtonItemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B627C561AA7733D0085D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B627C571AA7733D0085D5BF /* BarButtonItemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItemsTests.swift; sourceTree = "<group>"; };
+		9B627C611AA77A9F0085D5BF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9B627C411AA7733D0085D5BF /* AppDelegate.swift */,
-				9B627C431AA7733D0085D5BF /* ViewController.swift */,
+				9B627C611AA77A9F0085D5BF /* TableViewController.swift */,
 				9B627C451AA7733D0085D5BF /* Main.storyboard */,
 				9B627C481AA7733D0085D5BF /* Images.xcassets */,
 				9B627C4A1AA7733D0085D5BF /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B627C441AA7733D0085D5BF /* ViewController.swift in Sources */,
+				9B627C621AA77A9F0085D5BF /* TableViewController.swift in Sources */,
 				9B627C421AA7733D0085D5BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +407,7 @@
 				9B627C5D1AA7733D0085D5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B627C5E1AA7733D0085D5BF /* Build configuration list for PBXNativeTarget "BarButtonItemsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				9B627C601AA7733D0085D5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
